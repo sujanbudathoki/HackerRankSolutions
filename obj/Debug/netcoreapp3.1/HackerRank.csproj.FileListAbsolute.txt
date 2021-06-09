@@ -1,0 +1,13 @@
+C:\Users\suzan\source\repos\Data Structures\HackerRank\bin\Debug\netcoreapp3.1\HackerRank.exe
+C:\Users\suzan\source\repos\Data Structures\HackerRank\bin\Debug\netcoreapp3.1\HackerRank.deps.json
+C:\Users\suzan\source\repos\Data Structures\HackerRank\bin\Debug\netcoreapp3.1\HackerRank.runtimeconfig.json
+C:\Users\suzan\source\repos\Data Structures\HackerRank\bin\Debug\netcoreapp3.1\HackerRank.runtimeconfig.dev.json
+C:\Users\suzan\source\repos\Data Structures\HackerRank\bin\Debug\netcoreapp3.1\HackerRank.dll
+C:\Users\suzan\source\repos\Data Structures\HackerRank\bin\Debug\netcoreapp3.1\HackerRank.pdb
+C:\Users\suzan\source\repos\Data Structures\HackerRank\obj\Debug\netcoreapp3.1\HackerRank.csprojAssemblyReference.cache
+C:\Users\suzan\source\repos\Data Structures\HackerRank\obj\Debug\netcoreapp3.1\HackerRank.AssemblyInfoInputs.cache
+C:\Users\suzan\source\repos\Data Structures\HackerRank\obj\Debug\netcoreapp3.1\HackerRank.AssemblyInfo.cs
+C:\Users\suzan\source\repos\Data Structures\HackerRank\obj\Debug\netcoreapp3.1\HackerRank.csproj.CoreCompileInputs.cache
+C:\Users\suzan\source\repos\Data Structures\HackerRank\obj\Debug\netcoreapp3.1\HackerRank.dll
+C:\Users\suzan\source\repos\Data Structures\HackerRank\obj\Debug\netcoreapp3.1\HackerRank.pdb
+C:\Users\suzan\source\repos\Data Structures\HackerRank\obj\Debug\netcoreapp3.1\HackerRank.genruntimeconfig.cache
