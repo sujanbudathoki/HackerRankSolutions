@@ -22,7 +22,7 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
                     {
                         if (currIndex > n.Count - 1)
                         {
-
+                            break;
                         }
                         else if (n[currIndex] - n[i] <= 1)
                         {
