@@ -6,10 +6,11 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
 {
   public  class PickingNumbers
     {
-        public int maxLength(List<int> n)
+        public static int maxLength(List<int> n)
         {
             int max = 0;
-            for(int i = 0; i < n.Count - 1; i++)
+            n.Sort();
+            for (int i = 0; i < n.Count - 1; i++)
             {
                 int currIndex = i;
                 int Counter = 0;
@@ -19,7 +20,11 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
 
                     while (true)
                     {
-                        if (n[currIndex] - n[i] <= 1)
+                        if (currIndex > n.Count - 1)
+                        {
+
+                        }
+                        else if (n[currIndex] - n[i] <= 1)
                         {
                             currIndex++;
                             Counter++;
