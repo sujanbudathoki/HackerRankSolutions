@@ -10,7 +10,7 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
         {
             int max = 0;
             n.Sort();
-            for (int i = 0; i < n.Count - 1; i++)
+            for(int i = 0; i < n.Count - 1; i++)
             {
                 int currIndex = i;
                 int Counter = 0;
@@ -22,6 +22,7 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
                     {
                         if (currIndex > n.Count - 1)
                         {
+
                             break;
                         }
                         else if (n[currIndex] - n[i] <= 1)
