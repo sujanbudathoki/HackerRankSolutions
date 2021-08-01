@@ -20,7 +20,7 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
             {
                 int store = dictStore[count];
                 int result = dictStore[store];
-                output.Add(result);
+                output[count+1]=result;
                 count++;
             }
             return output;
