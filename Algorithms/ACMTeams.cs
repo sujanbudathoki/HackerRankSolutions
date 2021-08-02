@@ -9,46 +9,54 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
         public static List<int> acmTeam(List<string> topic)
         {
             List<int> result = new List<int>(new int[2]);
-            
-            int counter = 0;
-            int check=0;
-            int len=0;
-           
+
           
-            for(int i = 0; i < topic.Count; i++)
+            int check = 0;
+            int len = 0;
+            int maxSubj = 0;
+            int maxCounter = 0;
+
+
+            for (int i = 0; i < topic.Count; i++)
             {
-              for(int j = 1; j < topic.Count; j++)
+                for (int j = i + 1; j < topic.Count; j++)
                 {
-                    if (i != j)
 
+                    check = 0;
+                    len = topic[i].Length;
+
+                    for (int k = 0; k < len; k++)
                     {
-                        check = 1;
-                        len = topic[i].Length;
-
-                        for(int k = 0; k < len; k++)
+                        if (topic[i][k] == '1' || topic[j][k] == '1')
                         {
-                            if (topic[i][k] == '0')
-                            {
-                                if (topic[j][k] == '0')
-                                {
-                                    check = 0;
-                                }
-                            }
-                              
+                            check++;
                         }
-                        counter = check == 1 ? counter + 1 : counter;
-                           
-                     }
-
-
 
                     }
+                    if (maxSubj < check)
+                    {
+                        maxSubj = check;
+                        maxCounter = 1;
+                    }
+                    else if (maxSubj == check)
+                    {
+                        maxCounter++;
+                    }
+
+
+
+
+
+
                 }
-            result[0] = len;
-            result[1] = counter;
+            }
+
+            result[0] = maxSubj;
+            result[1] = maxCounter;
+            Console.WriteLine($"{result[0]}  {result[1]}");
             return result;
 
-            }
+        }
 
         
 
