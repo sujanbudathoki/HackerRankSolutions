@@ -10,9 +10,6 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
         {
             int counter = 0;
             int page = 1;
-            
-
-
             for (int i = 0; i < arr.Count; i++)
             {
                 int total = arr[i];

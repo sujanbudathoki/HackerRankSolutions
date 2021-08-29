@@ -13,6 +13,7 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
 
             for(int i = 0; i < cases.Count; i++)
             {
+
                 int start = cases[i][0];
                 int end = cases[i][1];
                 int maxWidth = width.GetRange(start, end - start+1).Min();
