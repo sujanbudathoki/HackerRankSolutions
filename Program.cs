@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace HackerRank
 {
@@ -6,7 +7,8 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
-           
+          
+
         }
     }
 }
