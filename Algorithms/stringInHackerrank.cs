@@ -16,7 +16,7 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
                     j++;
             }
             return j == newString.Length ? "YES" : "NO";
-            
+
         }
     }
 }
