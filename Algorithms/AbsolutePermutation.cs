@@ -10,7 +10,14 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
         {
            int total = 2*k;
             List<int> result = new List<int>();
-            if (n % total == 0)
+            if (k == 0)
+            {
+                for(int i = 1; i <= n; i++)
+                {
+                    result.Add(i);
+                }
+            }
+            else if (n % total == 0)
             {
                 
                 for(int i = 0; i < n / total; i++)
@@ -30,7 +37,7 @@ namespace HackerRank.HackerRankSolutions.HackerRankSolutions.Algorithms
             }
             else
             {
-                new List<int>() { -1 };
+               return new List<int>() { -1 };
             }
             return result;
 
